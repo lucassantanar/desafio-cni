@@ -30,7 +30,7 @@ Clone o projeto
 Entre no diretório do projeto
 
 ```bash
-  cd app-todo
+  cd desafio-cni
 ```
 
 Instale as dependências
