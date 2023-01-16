@@ -1,0 +1,26 @@
+td {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.tabelaCustom {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #fbd6ff;
+  border-style: solid;
+  color: #000000;
+}
+
+.tabelaCustom td,
+.tabelaCustom th {
+  border-width: 1px;
+  border-color: #fbd6ff;
+  border-style: solid;
+  padding: 5px;
+}
+
+.tabelaCustom thead {
+  background-color: #fbd6ff;
+}

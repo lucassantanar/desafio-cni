@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "desafio-cni": {
+      "hosting": {
+        "desafio-cni": [
+          "desafio-cni"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "desafio-cni"
+  }
+}

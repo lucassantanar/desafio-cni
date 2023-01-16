@@ -1,0 +1,29 @@
+<div>
+  <div>
+    <table class="tabelaCustom">
+      <thead>
+      <tr>
+        <th>Idade</th>
+        <th>Nome</th>
+        <th>Endereço</th>
+        <th>Profissão</th>
+        <th>Email</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let contato of listaContatos">
+        <td>{{ contato.idade }}</td>
+        <td>{{ contato.nome }}</td>
+        <td>{{ contato.endereco }}</td>
+        <td>{{ contato.profissao }}</td>
+        <td>{{ contato.email }}</td>
+        <td>
+          <button (click)="remover(contato.id)" pButton pRipple type="button" icon="pi pi-trash" class="p-button-rounded p-button-danger p-button-outlined"></button>
+          <button (click)="editar(contato)" pButton pRipple type="button" icon="pi pi-user-edit" class="p-button-rounded p-button-warning p-button-outlined"></button>
+        </td>
+      </tr>
+    </tbody>
+    </table>
+  </div>
+</div>

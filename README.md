@@ -1,27 +1,52 @@
-# DesafioCni
+# Desafio CNI - Processo Seletivo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+A implementação deste projeto, tem como finalidade, treinar conceitos básicos do angular.
 
-## Development server
+## Autores
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [@lucassantanar](https://www.github.com/lucassantanar)
 
-## Code scaffolding
+## Tela de demonstração
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Screenshot](HomeApp.png)
 
-## Build
+## Funcionalidades
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Aplicacação permite listagem, inserção, edição e exclusão de contatos.
 
-## Running unit tests
+## Stack utilizada
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Front-end:** Angular 2+, CSS, PrimgeNG12
+**Back-end/Banco de Dados:** Firebase - Realtime Database
 
-## Running end-to-end tests
+## Rodando localmente
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Clone o projeto
 
-## Further help
+```bash
+  git clone https://github.com/lucassantanar/desafio-cni.git
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Entre no diretório do projeto
+
+```bash
+  cd app-todo
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  ng serve
+```
+
+## Documentação de cores
+
+| Cor          | Hexadecimal                                                      |
+| ------------ | ---------------------------------------------------------------- |
+| Cor Primária | ![#b052c0](https://via.placeholder.com/10/af7eeb?text=+) #b052c0 |

@@ -1,1 +1,96 @@
-/* You can add global styles to this file, and also import other style files */
+hmtl,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.p-inputtext {
+  background-color: #ffffff;
+}
+
+.p-inputtext {
+  color: #000000;
+}
+
+.obsColorText {
+  color: #d60000;
+}
+
+.wd10 {
+  width: 130%;
+}
+
+.wd20 {
+  width: 20%;
+}
+
+.wd30 {
+  width: 30%;
+}
+
+.wd40 {
+  width: 40%;
+}
+
+.wd45 {
+  width: 45%;
+}
+
+.wd50 {
+  width: 50%;
+}
+
+.wd60 {
+  width: 60%;
+}
+
+.wd70 {
+  width: 70%;
+}
+
+.wd80 {
+  width: 80%;
+}
+
+.wd90 {
+  width: 90%;
+}
+
+.wd100 {
+  width: 100%;
+}
+
+.p1 {
+  padding-top: 1rem;
+}
+
+.gap1 {
+  gap: 1rem;
+}
